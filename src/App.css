@@ -1,0 +1,107 @@
+
+
+.flex {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.home-div {
+    width: 40%;
+    color: rgb(81, 79, 79);
+    border: rgb(47, 44, 44) 1px solid;
+    margin-left: 2rem;
+    line-height: .5rem;
+}
+.home-div img {
+    width: 100%;
+}
+.home-div h2 {
+    margin-left: 1rem;
+}
+.home-div p {
+    margin-left: 1rem;
+}
+.home-div a {
+    text-decoration: none;
+    color: rgb(47, 44, 44);
+    
+}
+
+nav {
+    background-color: rgb(205, 145, 41);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    
+}
+
+li img {
+    height: 200px;
+    
+}
+
+li {
+    padding: 1rem;
+    border-bottom: rgb(47, 44, 44) 1px solid;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+li h4 {
+    color: rgb(111, 103, 103);
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+.beer-img {
+    height: 200px;
+}
+
+.beer-text {
+    width: 80%;
+}
+.flex-column-center {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.beer-form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    border: rgb(144, 137, 137) 1px solid;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+}
+textarea {
+    border: rgb(144, 137, 137) 1px solid;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+}
+button {
+    border: 0;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    background-color: rgb(205, 145, 41);
+    padding: 0.5rem;
+    color: white;
+    font-weight: bold;
+}
+button:hover {
+    background-color: rgb(221, 177, 43);
+}
+
